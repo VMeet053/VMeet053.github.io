@@ -94,7 +94,7 @@ const Contact = () => {
                   </div>
                   <div className="ms-4">
                     <p className="mb-2">Call Us Now</p>
-                    <h3 className="mb-0">+012 345 6789</h3>
+                    <h3 className="mb-0">+91 70968 82030 / +91 70968 25434</h3>
                   </div>
                 </div>
                 <div className="bg-light d-flex align-items-center w-100 p-4">
@@ -103,7 +103,7 @@ const Contact = () => {
                   </div>
                   <div className="ms-4">
                     <p className="mb-2">Mail Us Now</p>
-                    <h3 className="mb-0">info@example.com</h3>
+                    <h3 className="mb-0">hariconstructions324@gmail.com</h3>
                   </div>
                 </div>
               </div>

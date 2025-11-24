@@ -47,7 +47,7 @@ const Navbar = () => {
             <div className="dropdown-menu border-0 m-0">
               <Link to="/features" className="dropdown-item">Our Features</Link>
               <Link to="/projects" className="dropdown-item">Our Projects</Link>
-              <Link to="/team" className="dropdown-item">Team Members</Link>
+              {/* <Link to="/team" className="dropdown-item">Team Members</Link> */}
               <Link to="/appointment" className="dropdown-item">Appointment</Link>
               <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
             </div>

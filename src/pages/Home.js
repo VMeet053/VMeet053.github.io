@@ -144,7 +144,7 @@ const Home = () => {
               <h4 className="section-title">About Us</h4>
               <h1 className="display-5 mb-4">Designing Spaces. Building Dreams. Creating Legacies.</h1>
               <p>At Our Company, we specialize in turning vision into reality through innovative architecture, interior design, and construction excellence. Every project we undertake blends creativity, technology, and craftsmanship to deliver timeless spaces that inspire</p>
-              <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
+              {/* <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p> */}
               <div className="d-flex align-items-center mb-5">
                 <div className="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary" style={{ width: '120px', height: '120px' }}>
                   <h1 className="display-1 mb-n2" data-toggle="counter-up">7</h1>
@@ -324,7 +324,7 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      <h1 className="mb-3">25 Years Of Experience In Architecture Industry</h1>
+                      <h1 className="mb-3">5 Years Of Experience In Commercial Project</h1>
                       <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                       <p><i className="fa fa-check text-primary me-3"></i>Design Approach</p>
                       <p><i className="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
@@ -392,55 +392,55 @@ const Home = () => {
       {/* Project End */}
 
       {/* Team Start */}
-      <div className="container-xxl py-5">
+      {/* <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '600px' }}>
             <h4 className="section-title">Team Members</h4>
             <h1 className="display-5 mb-4">We Are Creative Architecture Team For Your Dream Home</h1>
-          </div>
-          <div className="row g-0 team-items">
+          </div> */}
+          {/* <div className="row g-0 team-items">
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="team-item position-relative">
                 <div className="position-relative">
-                  <img className="img-fluid" src="/img/team-1.jpg" alt="" />
+                  <img className="img-fluid" src="/img/team-1.jpg" alt="" /> */}
                   {/* <div className="team-social text-center">
                     <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
                     <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
                     <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
                   </div> */}
-                </div>
+                {/* </div>
                 <div className="bg-light text-center p-4">
                   <h3 className="mt-2">Architect Name</h3>
                   <span className="text-primary">Designation</span>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            </div> */}
+            {/* <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <div className="team-item position-relative">
                 <div className="position-relative">
-                  <img className="img-fluid" src="/img/team-2.jpg" alt="" />
+                  <img className="img-fluid" src="/img/team-2.jpg" alt="" /> */}
                   {/* <div className="team-social text-center">
                     <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
                     <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
                     <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
                   </div> */}
-                </div>
+                {/* </div>
                 <div className="bg-light text-center p-4">
                   <h3 className="mt-2">Architect Name</h3>
                   <span className="text-primary">Designation</span>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            </div> */}
+            {/* <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="team-item position-relative">
                 <div className="position-relative">
-                  <img className="img-fluid" src="/img/team-3.jpg" alt="" />
+                  <img className="img-fluid" src="/img/team-3.jpg" alt="" /> */}
                   {/* <div className="team-social text-center">
                     <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
                     <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
                     <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
                   </div> */}
-                </div>
+                {/* </div>
                 <div className="bg-light text-center p-4">
                   <h3 className="mt-2">Architect Name</h3>
                   <span className="text-primary">Designation</span>
@@ -450,13 +450,13 @@ const Home = () => {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
               <div className="team-item position-relative">
                 <div className="position-relative">
-                  <img className="img-fluid" src="/img/team-4.jpg" alt="" />
+                  <img className="img-fluid" src="/img/team-4.jpg" alt="" /> */}
                   {/* <div className="team-social text-center">
                     <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
                     <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
                     <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
                   </div> */}
-                </div>
+                {/* </div>
                 <div className="bg-light text-center p-4">
                   <h3 className="mt-2">Architect Name</h3>
                   <span className="text-primary">Designation</span>
@@ -465,7 +465,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Team End */}
 
       {/* Appointment Start */}

@@ -18,8 +18,8 @@ const Services = () => {
 
   const facts = [
     { icon: 'icon-2.png', title: 'Design Approach', delay: '0.1s' },
-    { icon: 'icon-3.png', title: 'Innovative Solutions', delay: '0.3s' },
-    { icon: 'icon-4.png', title: 'Project Management', delay: '0.5s' }
+    { icon: 'icon-3.png', title1: 'Innovative Solutions', delay: '0.3s' },
+    { icon: 'icon-4.png', title2: 'Project Management', delay: '0.5s' }
   ];
 
   useEffect(() => {
@@ -44,20 +44,36 @@ const Services = () => {
       <PageHeader title="Services" />
 
       {/* Facts Start */}
-      <div className="container-xxl py-5">
+           <div className="container-xxl py-5">
         <div className="container pt-5">
           <div className="row g-4">
-            {facts.map((fact, index) => (
-              <div key={index} className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay={fact.delay}>
-                <div className="fact-item text-center bg-light h-100 p-5 pt-0">
-                  <div className="fact-icon">
-                    <img src={`/img/icons/${fact.icon}`} alt="Icon" />
-                  </div>
-                  <h3 className="mb-3">{fact.title}</h3>
-                  <p className="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="fact-item text-center bg-light h-100 p-5 pt-0">
+                <div className="fact-icon">
+                  <img src="/img/icons/icon-2.png" alt="Icon" />
                 </div>
+                <h3 className="mb-3">Design Approach</h3>
+                <p className="mb-0">We approach every project with a deep understanding of space, light, and material. Our designs merge aesthetics with functionality, ensuring every detail enhances both form and purpose.</p>
               </div>
-            ))}
+            </div>
+            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div className="fact-item text-center bg-light h-100 p-5 pt-0">
+                <div className="fact-icon">
+                  <img src="/img/icons/icon-3.png" alt="Icon" />
+                </div>
+                <h3 className="mb-3">Innovative Solutions</h3>
+                <p className="mb-0">We embrace creativity and technology to craft unique spaces that redefine modern living. From sustainable materials to smart layouts, our innovations bring ideas to life with precision and flair.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="fact-item text-center bg-light h-100 p-5 pt-0">
+                <div className="fact-icon">
+                  <img src="/img/icons/icon-4.png" alt="Icon" />
+                </div>
+                <h3 className="mb-3">Project Management</h3>
+                <p className="mb-0">Our dedicated team manages every phase — from concept to completion — with professionalism and transparency. We ensure timely delivery, cost efficiency, and impeccable quality in every project.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
